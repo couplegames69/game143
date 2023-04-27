@@ -1,0 +1,77 @@
+
+.wheel_bg{
+  background-image: linear-gradient(to right, #0f0f0f,#b20a2c  );
+
+}
+.lastbtn{
+  display: none;
+}
+@media screen and (max-width: 400px) {
+.wheel_container {
+  position: relative;
+  bottom: 100px;
+  right: 140px;
+  width: 1000px;
+  height: 530px;
+  overflow: hidden;
+} 
+.lastbtn{
+  display: block;
+  text-align: center;
+  align-items: center;
+}
+
+
+}
+
+@media only screen and (max-width: 600px) and (min-width: 410px)  {
+  .wheel_container {
+    position: relative;
+    bottom: 100px;
+    right: 120px;
+    width: 1000px;
+    height: 530px;
+    overflow: hidden;
+  } 
+  .lastbtn{
+    display: block;
+  }
+  
+  
+}
+/* ipad mini */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+{
+  .wheel_container {
+    position: relative;
+    bottom: 100px;
+    right: 120px;
+    width: 1000px;
+    height: 530px;
+    overflow: hidden;
+  } 
+  .lastbtn{
+    display: block;
+  }
+  
+}
+
+/* galaxy fold */
+@media screen and (max-width: 320px) {
+  .wheel_container {
+    position: relative;
+    bottom: 100px;
+    right: 190px;
+    width: 1000px;
+    height: 530px;
+    overflow: hidden;
+  } 
+  
+  .lastbtn{
+    display: block;
+  }
+  
+  
+  }
